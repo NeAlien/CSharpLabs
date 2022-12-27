@@ -1,0 +1,25 @@
+<Animal comment="Abstract class of animals">
+  <Cow comment="It's a cow">
+    <Country>Country</Country>
+    <Name>Name</Name>
+    <WhatAnimal>Cow</WhatAnimal>
+    <HideFromOtherAnimals>HideFromOtherAnimals</HideFromOtherAnimals>
+  </Cow>
+  <Lion comment="It's a lion">
+    <Country>Country</Country>
+    <Name>Name</Name>
+    <WhatAnimal>Lion</WhatAnimal>
+    <HideFromOtherAnimals>HideFromOtherAnimals</HideFromOtherAnimals>
+  </Lion>
+  <Pig comment="It's a pig">
+    <Country>Country</Country>
+    <Name>Name</Name>
+    <WhatAnimal>Pig</WhatAnimal>
+    <HideFromOtherAnimals>HideFromOtherAnimals</HideFromOtherAnimals>
+  </Pig>
+  <Methods>Deconstruct GetClassificationAnimal GetFavouriteFood SayHello </Methods>
+  <EnumTypes comment="New enum types for data of animals">
+    <eClassificationAnimal comment="Animals can be different classifications">Herbivores Carnivores Omnivores </eClassificationAnimal>
+    <eFavouriteFood comment="Animals have favourite food">Meat Plants Everything </eFavouriteFood>
+  </EnumTypes>
+</Animal>
